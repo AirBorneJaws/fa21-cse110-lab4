@@ -20,7 +20,7 @@
 **3 will be displayed to the console as length is set to prices.length, meaning it is a constant value and cannot be reassigned. Furthermore, since the array that was passed in as a parameter has 3 elements, its length is 3**
 11. What will this function return? Give a brief explanation. If the code causes an error, explain why. <br>
 **The function will return the array [50,100,150] as an array discounted was created and discountedPrice was pushed into it in the for loop. Const for arrays in JS do not define a constant array but rather define a constant reference to the array in question, which is why push is able to mutate the elements** <br>
-12.**A) student.name;** <br>
+12. **A) student.name;** <br>
 **B) student["Grad Year"];** <br>
 **C) student.greeting.call();** <br>
 **D) student["Favorite Teacher"].name;** <br>
