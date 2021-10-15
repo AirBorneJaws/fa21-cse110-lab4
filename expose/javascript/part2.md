@@ -25,7 +25,7 @@
 **B) student["Grad Year"];** <br>
 **C) student.greeting.call();** <br>
 **D) student["Favorite Teacher"].name;** <br>
-**E) student.courseLoad[0];**
+**E) student.courseLoad[0];** <br>
 13. Arithmetic <br>
 **A. 32** <br>
 **B. 1** <br>
@@ -34,14 +34,14 @@
 **E. 4** <br>
 **F. 0** <br>
 **G. 3undefined**<br>
-**H. Nan** 
+**H. Nan** <br>
 14. Comparison <br>
 **A. true** <br>
 **B. false** <br>
 **C. true** <br>
 **D. false**<br>
 **E. false**<br>
-**F. true** 
+**F. true** <br>
 15. **The triple equal sign (===) means strict equality, in other words, both the type and value has to match. However, the double equal sign (==) means loost equality, in other words, type coercion will be performed to try and equate the expression. For example, false===0 will be obviously false, as one is a boolean and the other an int, however, with false==0, we get true.** <br>
 17. If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development. <br>
 **The result will be [2,4,6]. We will call the modifyArray with the 1st parameter passing the [1,2,3] array and the second parameter will be the doSomething function. Inside the modifyArray function, a newArr will be initialized and based on the length of the array, the doSomething(num) functions resulsts will be pushed into it. Every time the for loop runs, it enters the doSomething(num) function by passing a new element each time until it reached the max length. Thus, 1 gets passed into doSomething and a 2 is returned and pushed into newArr, 2 gets passed and a 4 is returned and pushed, 3 gets passed and a 6 is returned and pushed.** <br>
